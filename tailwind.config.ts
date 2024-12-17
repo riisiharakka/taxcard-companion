@@ -25,15 +25,16 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         finland: {
-          blue: "#003281",
-          red: "#D00C13",
+          green: "#007A3D",
+          white: "#FFFFFF",
+          black: "#000000",
         },
         primary: {
-          DEFAULT: "#003281",
+          DEFAULT: "#007A3D",
           foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#0066CC",
+          DEFAULT: "#004D26",
           foreground: "#FFFFFF",
         },
         destructive: {
@@ -45,7 +46,7 @@ export default {
           foreground: "hsl(var(--muted-foreground))",
         },
         accent: {
-          DEFAULT: "#D00C13",
+          DEFAULT: "#004D26",
           foreground: "#FFFFFF",
         },
         popover: {

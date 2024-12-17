@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
   return (
-    <div className="relative bg-[#00B5E2] py-20 text-white">
+    <div className="relative bg-finland-green py-20 text-white">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
@@ -13,7 +13,7 @@ export const Hero = () => {
           </p>
           <Button
             size="lg"
-            className="bg-white hover:bg-gray-100 text-[#00B5E2] px-8 py-6 text-lg"
+            className="bg-white hover:bg-gray-100 text-finland-green px-8 py-6 text-lg"
             onClick={() => window.open("https://www.vero.fi/sahkoiset-asiointipalvelut/omavero/", "_blank")}
           >
             Hanki verokortti nyt
