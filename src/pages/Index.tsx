@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Verokortti - Hanki verkorttisi verkossa | Vero.fi</title>
+        <title>Verokortti - Hanki verokorttisi verkossa</title>
         <meta
           name="description"
           content="Opi miten saat verokorttisi helposti verkossa. Vaiheittainen opas ja usein kysytyt kysymykset verokortista Suomessa."
