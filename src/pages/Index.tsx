@@ -1,6 +1,7 @@
 import { Hero } from "@/components/Hero";
 import { Guide } from "@/components/Guide";
 import { FAQ } from "@/components/FAQ";
+import { AdBanner } from "@/components/AdBanner";
 import { Helmet } from "react-helmet";
 
 const Index = () => {
@@ -26,6 +27,7 @@ const Index = () => {
       <main className="min-h-screen">
         <Hero />
         <Guide />
+        <AdBanner />
         <FAQ />
       </main>
     </>
