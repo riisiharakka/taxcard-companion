@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "What is a tax card (verokortti)?",
-    answer: "A tax card (verokortti) is an official document that determines how much tax should be withheld from your income in Finland. Your employer needs this to deduct the correct amount of tax from your salary.",
+    question: "Mikä on verokortti?",
+    answer: "Verokortti on virallinen asiakirja, joka määrittää, kuinka paljon veroa pidätetään tuloistasi Suomessa. Työnantajasi tarvitsee tämän pidättääkseen oikean määrän veroa palkastasi.",
   },
   {
-    question: "When do I need a new tax card?",
-    answer: "You need a new tax card when you start a new job, your income changes significantly, or at the beginning of each year. The tax card for each year is typically valid from February 1st.",
+    question: "Milloin tarvitsen uuden verokortin?",
+    answer: "Tarvitset uuden verokortin, kun aloitat uuden työn, tulosi muuttuvat merkittävästi tai vuoden vaihtuessa. Verokortti on tyypillisesti voimassa helmikuun 1. päivästä alkaen.",
   },
   {
-    question: "How can I get my tax card online?",
-    answer: "You can get your tax card online through the Finnish Tax Administration's website (vero.fi). Log in using your Finnish bank credentials or mobile ID, navigate to the tax card section, and follow the instructions.",
+    question: "Miten saan verokortin verkossa?",
+    answer: "Voit hankkia verokortin verkossa Verohallinnon OmaVero-palvelusta. Kirjaudu sisään pankkitunnuksillasi tai mobiilivarmenteella, siirry verokorttiosioon ja seuraa ohjeita.",
   },
   {
-    question: "Is there a fee for getting a tax card?",
-    answer: "No, getting a tax card is completely free. The Finnish Tax Administration provides this service without any charge.",
+    question: "Onko verokortin hankkiminen maksullista?",
+    answer: "Ei, verokortin hankkiminen on täysin maksutonta. Verohallinto tarjoaa tämän palvelun ilman veloitusta.",
   },
 ];
 
@@ -28,8 +28,8 @@ export const FAQ = () => {
   return (
     <div className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-finland-blue">
-          Frequently Asked Questions
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#00B5E2]">
+          Usein kysytyt kysymykset
         </h2>
         <div className="max-w-3xl mx-auto">
           <Accordion type="single" collapsible className="w-full">
