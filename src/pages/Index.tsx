@@ -1,7 +1,6 @@
 import { Hero } from "@/components/Hero";
 import { Guide } from "@/components/Guide";
 import { FAQ } from "@/components/FAQ";
-import { ViewCounter } from "@/components/ViewCounter";
 import { Helmet } from "react-helmet";
 
 const Index = () => {
@@ -28,7 +27,6 @@ const Index = () => {
         <Hero />
         <Guide />
         <FAQ />
-        <ViewCounter />
       </main>
     </>
   );
